@@ -19,7 +19,7 @@ class Stack:
             cur = cur.next
         return out[:-2]
 
-    def getSize(self):
+    def size(self):
         return self.size
 
     def isEmpty(self):
